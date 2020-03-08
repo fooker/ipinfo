@@ -1,0 +1,11 @@
+[package]
+name = "ipinfo"
+version = "0.1.0"
+authors = ["Dustin Frisch <fooker@lab.sh>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33"
+ip_network = "0.3"
+json = "0.12"
+anyhow = "1"
